@@ -46,6 +46,9 @@ function ChessBoard() {
     function MovePiece(e: React.MouseEvent) {
         const X = e.clientX;
         const Y = e.clientY;
+           if (element.classList.contains("chess-piece")) {
+            console.log(e)
+        }
 
     }
     const getPosition = () =>{
